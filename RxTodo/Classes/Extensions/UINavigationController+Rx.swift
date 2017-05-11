@@ -25,9 +25,23 @@ class RxNavigationControllerDelegateProxy: DelegateProxy,DelegateProxyType,UINav
         
         if delegate == nil {
             
+            navigationController.delegate = nil
+        }else{
         
+            guard let delegate = delegate as? UINavigationControllerDelegate else { fatalError() }
+            
+            navigationController.delegate = delegate
         }
+        
     }
     
     
+}
+
+extension Reactive where Base: UINavigationController{
+
+    public var delegate:DelegateProxy{
+    
+        return RxNavigationControllerDelegateProxy.proxyForObject(base)
+    }
 }
