@@ -133,10 +133,10 @@
             <objects>
                 <navigationController storyboardIdentifier="Tasks" id="G4P-Qa-txn" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="T0Z-ia-eGE">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="T0Z-ia-eGE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.86666666670000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.16862745098039217" green="0.48627450980392156" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ISd-he-OHy"/>
@@ -150,10 +150,10 @@
         <scene sceneID="fEI-bg-hd3">
             <objects>
                 <navigationController storyboardIdentifier="EditTask" id="tYZ-ap-pBs" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="myK-zB-Tcl">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="myK-zB-Tcl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.86666666670000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.16862745098039217" green="0.48627450980392156" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="0CQ-Wm-bXw" kind="relationship" relationship="rootViewController" id="Xzw-q5-ZKr"/>
